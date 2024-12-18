@@ -1,0 +1,58 @@
+body {
+  background-color: bisque;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  background-color: lightgreen;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+  background-color: lightpink;
+}
+
+h3 {
+  text-align: center;
+}
+
+.description {
+  font-size: large;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.ingredients-container {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.ingredients-list {
+  list-style: square;
+  list-style-position: inside;
+  text-align: start;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.instructions {
+  text-align: center;
+}
+
+.instructions-list {
+  display: inline-block;
+  list-style-position: inside;
+  text-align: start;
+}

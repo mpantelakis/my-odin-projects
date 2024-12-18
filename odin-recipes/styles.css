@@ -1,0 +1,39 @@
+body {
+  background-color: bisque;
+}
+
+.title {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(238, 124, 124);
+  padding: 5px;
+  box-sizing: content-box;
+  width: auto;
+  height: 40px;
+  margin-bottom: 0;
+}
+
+.subtitle-container {
+  text-align: center;
+  margin: 0;
+}
+
+.subtitle {
+  background-color: rgb(238, 124, 124);
+  padding: 10px;
+  font-weight: bolder;
+  display: inline-block;
+  width: 400px;
+  height: auto;
+}
+
+.recipes {
+  list-style: square;
+  display: inline-block;
+  text-align: start;
+  font-size: larger;
+}
+
+.container {
+  text-align: center;
+}
