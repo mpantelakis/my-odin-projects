@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="game.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+    <div class="header">
+        <div class="title" id="page_title">
+            Rock Paper Scissors
+        </div>
+    </div>
+    <div class="upper-body">
+        <div class="scoreboard">
+            <div class="title" id="score_title">Scoreboard</div>
+            <div class="scores">
+                <div class="score-box">
+                    <div id="score">
+                        <div class="score-text" id="player-score-number">0</div>
+                    </div>
+                    <div class="title" id="playerName">You</div>
+                </div>
+                <div class="score-box">
+                    <div id="score">
+                        <div class="score-text" id="computer-score-number">0</div>
+                    </div>
+                    <div class="title" id="playerName">Computer</div>
+                </div>
+            </div>
+        </div>
+        <div class="result">
+            <div class="title" id="result-text">Let's Play!</div>
+            <div class="title" id="explanation-text">First to 5 Points Wins</div>
+        </div>
+    </div>
+    <div class="choices">
+        <div class="choice-box">
+            <div class="choice" id="player-choice"><img class="weapon-image" id="player-weapon-choice"
+                    src="./images/question.png"></div>
+            <div class="title" id="choice-text">Your Choice</div>
+        </div>
+        <div class="choice-box">
+            <div class="choice" id="computer-choice"><img class="weapon-image" id="computer-weapon-choice"
+                    src="./images/question.png"></div>
+            <div class="title" id="choice-text">Computer's Choice</div>
+        </div>
+    </div>
+    <div class="weapons">
+        <div class="title" id="weapons-text">Choose your weapon!</div>
+        <div class="weapons-box">
+            <button class="weapon" id="rock"><img class="weapon-image" src="./images/rock.png"></button>
+            <button class="weapon" id="paper"><img class="weapon-image" src="./images/paper.png"></button>
+            <button class="weapon" id="scissors"><img class="weapon-image" src="./images/scissors.png"></button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
